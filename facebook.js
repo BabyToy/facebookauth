@@ -9,6 +9,10 @@ module.exports = (app) => {
   const userFieldSet = 'name, link, is_verified, picture, email';
   const pageFieldSet = 'name, category, link, picture, is_verified, email';
 
+  app.get('/healthcheck', (request, response, next) => {
+    response.status(200).send('OK');
+  });
+
   app.post('/facebook-search', (req, res) => {
     const { queryTerm, searchType } = req.body;
 
