@@ -2,12 +2,12 @@
 /*eslint-env es6*/
 'use strict';
 
-const request = require('request-promise');
+const request = require('request-promise-native');
 const config = require('./config');
 
 module.exports = (app) => {
-  const userFieldSet = 'name, link, is_verified, picture';
-  const pageFieldSet = 'name, category, link, picture, is_verified';
+  const userFieldSet = 'name, link, is_verified, picture, email';
+  const pageFieldSet = 'name, category, link, picture, is_verified, email';
 
   app.post('/facebook-search', (req, res) => {
     const { queryTerm, searchType } = req.body;
