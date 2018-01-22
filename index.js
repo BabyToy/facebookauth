@@ -51,7 +51,7 @@ app.use(function (error, request, response, next) {
   next(error);
 });
 
-let listener = app.listen(3000, function () {
+let listener = app.listen(80, function () {
   console.log('http://' + os.hostname() + ':' + listener.address().port);
 });
 

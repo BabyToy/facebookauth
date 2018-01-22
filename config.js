@@ -2,6 +2,5 @@
 /*eslint-env es6*/
 'use strict';
 
-const userAccessToken = 'EAAB7uOwzPbMBAEKufXxuWdsCP5D6ukqMn8E2b2pKmIB3CNKi0wdibi9SuYlwjdRLpbAM8YOk38LMfZBilSTxpiw4bQw2KKKbMEz8qs2y8ygpTEpMcn3G7YwEshJZCsxNZA1I7j1D3j1Mv5rxLwzK0BBHfOwdZBMlocFZCZA0vZC5wZDZD';
-
+const userAccessToken = 'EAACEdEose0cBAH1Sf7UA8q02FtLJyZAuOMzsW8Ps0kdNcCbbw08cwAu3iEhm7Beoipk0Y42cROBGc9mUBZBZAjbxvUuaDzfewNsZCgcTK5oCOFm2GscMVkwUYPWepb1nZCfSHnPzZC4B4qXitmrlbNA8KJy4EqCPmuStxssneDnZBNPXOkfPZCyBAnQZBGR4pbyVMSjuIETVCcQZDZD';
 exports.userAccessToken = userAccessToken;
